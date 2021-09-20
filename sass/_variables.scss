@@ -1,0 +1,25 @@
+$btnBgColor: #01acac;
+$btnTextColor: #d6ffff;
+$postBackgound: #efefef;
+$fonts1: normal 300 15px/24px Roboto, Ubuntu, Cantarell, Helvetica ,sans-serif;;
+$fonts2: normal 18px/26px "Palatino Linotype", "Book Antiqua", Palatino, serif;;
+%btn{
+	width: 200px;
+	height: 38px;
+	background-color: $btnBgColor;
+	color: $btnTextColor;
+	text-transform: uppercase;
+	border: none;
+	font: $fonts1;
+	cursor: pointer;
+}
+%h1{
+	width: 100%;
+	color: #010f16;
+	text-transform: uppercase;
+	text-align: right;
+	font: $fonts1;
+	font-weight: 700;
+	font-size: 26px;
+}
+
